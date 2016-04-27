@@ -7,7 +7,7 @@
 ~~~
 <img src="{{ beerhold(300, 200) }}" alt="" />
 ~~~
-результат:
+**результат:**
 ~~~
 <img src="http://beerhold.it/300/200/?hash={HASH}" alt="" />
 ~~~
@@ -18,7 +18,7 @@
 ~~~
 <img src="{{ beerhold_g(300, 200) }}" alt="" />
 ~~~
-результат:
+**результат:**
 ~~~
 <img src="http://beerhold.it/300/200/g" alt="" />
 ~~~
@@ -29,7 +29,7 @@
 ~~~
 <img src="{{ beerhold_s(300, 200) }}" alt="" />
 ~~~
-результат:
+**результат:**
 ~~~
 <img src="http://beerhold.it/300/200/s?hash={HASH}" alt="" />
 ~~~
@@ -40,7 +40,7 @@
 ~~~
 <img src="{{ beerhold_n(300, 200) }}" alt="" />
 ~~~
-результат:
+**результат:**
 ~~~
 <img src="http://beerhold.it/300/200/n?hash={HASH}" alt="" />
 ~~~
