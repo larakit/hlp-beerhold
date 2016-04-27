@@ -1,0 +1,25 @@
+{
+    "name": "larakit/hlp-beerhold",
+    "description": "[Larakit] [Helper] Image placeholder (http://beerhold.it/)",
+    "keywords": [
+        "laravel 5",
+        "image",
+        "placeholder",
+        "larakit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Berdnikov",
+            "email": "aberdnikov@gmail.com"
+        }
+    ],
+    "require": {
+        "larakit/lk-twig": "*"
+    },
+    "autoload": {
+        "files": [
+            "init.php"
+        ]
+    }
+}
