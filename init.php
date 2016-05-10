@@ -15,5 +15,3 @@ Larakit\Twig::register_function('beerhold_s', function ($w, $h) {
 Larakit\Twig::register_function('beerhold_n', function ($w, $h) {
     return sprintf('http://beerhold.it/%d/%d/n?hash=%s', $w, $h, microtime());
 });
-
-\Larakit\Page\PageDnsPrefetch::register('//beerhold.it');
